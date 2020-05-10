@@ -12,6 +12,7 @@ function solution(s) {
         }
     }
     var tuple = [];
+    // 오반데....
     for (var li = 0; li < list.length; li++) {
         for (var comp of list[li]) {
             for (var i = li; i < list.length; i++) {
