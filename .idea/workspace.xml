@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe81811-9d9d-4bae-bf67-b4a9b422a67a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/BaekJoon14501.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaekJoon14501.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,13 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BaekJoon10804.java">
+        <entry file="file://$PROJECT_DIR$/src/BaekJoon14501.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -59,11 +56,11 @@
         <option value="$PROJECT_DIR$/src/BaekJoon1475.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon2477.java" />
         <option value="$PROJECT_DIR$/src/BaeckJoon14501.java" />
-        <option value="$PROJECT_DIR$/src/BaekJoon14501.java" />
         <option value="$PROJECT_DIR$/algorithm.iml" />
         <option value="$PROJECT_DIR$/practice/greedy.java" />
         <option value="$PROJECT_DIR$/practice/activitySelection.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon10804.java" />
+        <option value="$PROJECT_DIR$/src/BaekJoon14501.java" />
       </list>
     </option>
   </component>
@@ -74,11 +71,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="557" />
-    <option name="y" value="23" />
-    <option name="width" value="883" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -113,6 +108,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -298,27 +294,26 @@
       <workItem from="1589305416499" duration="5772000" />
       <workItem from="1589538148963" duration="19592000" />
       <workItem from="1589640785526" duration="16047000" />
-      <workItem from="1590126420579" duration="8213000" />
+      <workItem from="1590126420579" duration="8715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49624000" />
+    <option name="totallyTimeSpent" value="50126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="557" y="23" width="883" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973638" visible="true" weight="0.047562424" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.19027181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5026362" side_tool="true" visible="true" weight="0.047562424" />
+      <window_info id="Favorites" order="6" sideWeight="0.50209206" side_tool="true" visible="true" weight="0.19027181" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7621879" visible="true" weight="0.27515924" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7621879" weight="0.27515924" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,8 +321,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6144492" weight="0.4493976" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.23781213" side_tool="true" visible="true" weight="0.27515924" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.6137339" visible="true" weight="0.42409638" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.38626608" side_tool="true" visible="true" weight="0.42409638" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.68673563" weight="0.32866243" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -416,13 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon14501.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -443,11 +431,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon10804.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="112">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon14501.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
