@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe81811-9d9d-4bae-bf67-b4a9b422a67a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaekJoon1267.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaekJoon1267.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon14501.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="44" />
+            <state relative-caret-position="60">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon1267.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="200">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -139,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BaekJoon10804">
+  <component name="RunManager" selected="Application.BaekJoon1267">
     <configuration name="BaekJoon10804" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaekJoon10804" />
       <module name="algorithm" />
@@ -147,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaekJoon13300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaekJoon13300" />
+    <configuration name="BaekJoon1267" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaekJoon1267" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -269,18 +269,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BaekJoon14501" />
-      <item itemvalue="Application.BaekJoon13300" />
       <item itemvalue="Application.greedy" />
       <item itemvalue="Application.activitySelection" />
       <item itemvalue="Application.BaekJoon10804" />
+      <item itemvalue="Application.BaekJoon1267" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaekJoon1267" />
         <item itemvalue="Application.BaekJoon10804" />
         <item itemvalue="Application.activitySelection" />
         <item itemvalue="Application.greedy" />
         <item itemvalue="Application.BaekJoon14501" />
-        <item itemvalue="Application.BaekJoon13300" />
       </list>
     </recent_temporary>
   </component>
@@ -298,12 +298,12 @@
       <workItem from="1589538148963" duration="19592000" />
       <workItem from="1589640785526" duration="16047000" />
       <workItem from="1590126420579" duration="8735000" />
-      <workItem from="1590321895702" duration="44000" />
+      <workItem from="1590321895702" duration="957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50190000" />
+    <option name="totallyTimeSpent" value="51103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -318,7 +318,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50209206" side_tool="true" weight="0.19027181" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7621879" weight="0.27515924" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.76108724" visible="true" weight="0.2746988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,8 +326,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.6130186" visible="true" weight="0.213253" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3869814" side_tool="true" visible="true" weight="0.213253" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6130186" weight="0.213253" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.23891273" side_tool="true" visible="true" weight="0.2746988" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.68673563" weight="0.32866243" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -446,15 +446,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon14501.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="44" />
+        <state relative-caret-position="60">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon1267.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="200">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
