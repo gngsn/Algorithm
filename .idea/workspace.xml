@@ -19,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon14501.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="40">
+              <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BaekJoon1267.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -61,13 +70,7 @@
         <option value="$PROJECT_DIR$/practice/activitySelection.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon10804.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon14501.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/src/BaekJoon1267.java" />
       </list>
     </option>
   </component>
@@ -102,8 +105,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,23 +297,25 @@
       <workItem from="1589305416499" duration="5772000" />
       <workItem from="1589538148963" duration="19592000" />
       <workItem from="1589640785526" duration="16047000" />
-      <workItem from="1590126420579" duration="8715000" />
+      <workItem from="1590126420579" duration="8735000" />
+      <workItem from="1590321895702" duration="44000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50126000" />
+    <option name="totallyTimeSpent" value="50190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.19027181" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.19241774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50209206" side_tool="true" visible="true" weight="0.19027181" />
+      <window_info id="Favorites" order="6" sideWeight="0.50209206" side_tool="true" weight="0.19027181" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7621879" weight="0.27515924" />
@@ -321,8 +326,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.6137339" visible="true" weight="0.42409638" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.38626608" side_tool="true" visible="true" weight="0.42409638" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.6130186" visible="true" weight="0.213253" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3869814" side_tool="true" visible="true" weight="0.213253" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.68673563" weight="0.32866243" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -441,8 +446,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon14501.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="40">
+          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon1267.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
