@@ -6,4 +6,4 @@
 ## 참고
 
 
-### ✔️ Data Structure - [Graph](https://gngsn.tistory.com/35)
+### ✔️ [Graph](https://gngsn.tistory.com/35) - Data Structure
