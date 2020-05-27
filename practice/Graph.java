@@ -1,5 +1,4 @@
-// Java program to print BFS traversal from a given source vertex.
-// BFS(int s) traverses vertices reachable from s.
+import java.lang.reflect.Array;
 import java.util.*;
 
 class Graph {
@@ -11,6 +10,7 @@ class Graph {
         adj = new LinkedList[v];
         for (int i=0; i<v; ++i)
             adj[i] = new LinkedList();
+        System.out.println(Arrays.toString(adj));
     }
 
     void addEdge(int v,int w) {
@@ -19,22 +19,20 @@ class Graph {
 
     void BFS(int s) {
         boolean visited[] = new boolean[V];
+        LinkedList<Integer> queue = new LinkedList<>();
 
-        LinkedList<Integer> queue = new LinkedList<Integer>();
-
-        visited[s]=true;
+        visited[s] = true;
         queue.add(s);
-
         while (queue.size() != 0) {
             s = queue.poll();
             System.out.print(s+" ");
-
             Iterator<Integer> i = adj[s].listIterator();
             while (i.hasNext()) {
                 int n = i.next();
                 if (!visited[n]) {
                     visited[n] = true;
                     queue.add(n);
+                    System.out.println("Q : "+queue);
                 }
             }
         }
