@@ -1,3 +1,5 @@
+package week2;
+
 import java.math.BigInteger;
 import java.util.Scanner;
 public class BaekJoon15894 {

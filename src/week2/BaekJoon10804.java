@@ -1,3 +1,5 @@
+package week2;
+
 import java.lang.reflect.Array;
 import java.util.*;
 public class BaekJoon10804 {

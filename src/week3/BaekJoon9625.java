@@ -1,3 +1,5 @@
+package week3;
+
 import java.util.HashMap;
 import java.util.Scanner;
 public class BaekJoon9625 {
