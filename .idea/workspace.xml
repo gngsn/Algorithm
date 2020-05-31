@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe81811-9d9d-4bae-bf67-b4a9b422a67a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week3/BaekJoon11650.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BaekJoon10162.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BaekJoon10804.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BaekJoon10807.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BaekJoon11179.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BaekJoon1267.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BaekJoon13300.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BaekJoon14501.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BaekJoon1475.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BaekJoon15894.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BaekJoon2178.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BaekJoon2477.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BaekJoon9625.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week3/BaekJoon11650.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week3/BaekJoon11650.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,23 +35,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon11650.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+            <state relative-caret-position="293">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="509" column="7" selection-start-line="509" selection-start-column="7" selection-end-line="509" selection-end-column="7" />
-              <folding>
-                <element signature="e#6338#6339#0" expanded="true" />
-                <element signature="e#6406#6407#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -372,12 +348,12 @@
       <workItem from="1590321895702" duration="6832000" />
       <workItem from="1590391590743" duration="8419000" />
       <workItem from="1590582397429" duration="4056000" />
-      <workItem from="1590732911820" duration="17392000" />
+      <workItem from="1590732911820" duration="21817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86845000" />
+    <option name="totallyTimeSpent" value="91270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -392,7 +368,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50209206" side_tool="true" weight="0.19027181" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7539342" visible="true" weight="0.25903615" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7525036" visible="true" weight="0.119277105" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,9 +376,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6051502" weight="0.2554217" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.24606581" side_tool="true" visible="true" weight="0.25903615" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.68526465" weight="0.32771084" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6044349" weight="0.2554217" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.24749643" side_tool="true" visible="true" weight="0.119277105" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.68454933" weight="0.32771084" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -599,17 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="509" column="7" selection-start-line="509" selection-start-column="7" selection-end-line="509" selection-end-column="7" />
-          <folding>
-            <element signature="e#6338#6339#0" expanded="true" />
-            <element signature="e#6406#6407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -621,12 +586,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="522" column="5" lean-forward="true" selection-start-line="522" selection-start-column="5" selection-end-line="522" selection-end-column="5" />
+          <folding>
+            <element signature="e#6338#6339#0" expanded="true" />
+            <element signature="e#6406#6407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon11650.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+        <state relative-caret-position="293">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
           </folding>
         </state>
       </provider>
