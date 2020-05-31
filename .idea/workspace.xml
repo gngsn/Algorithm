@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe81811-9d9d-4bae-bf67-b4a9b422a67a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/week3/BaekJoon11650.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week3/BaekJoon11650.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week3/BaekJoon6603.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,26 +19,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon9625.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon6603.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="54" />
+            <state relative-caret-position="260">
+              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon11650.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-              <folding>
-                <element signature="e#928#929#0" expanded="true" />
-                <marker date="1590908656451" expanded="true" signature="1833:1899" ph="..." />
               </folding>
             </state>
           </provider>
@@ -92,6 +79,7 @@
         <option value="$PROJECT_DIR$/src/BaekJoon9625.java" />
         <option value="$PROJECT_DIR$/src/week3/BaekJoon1546.java" />
         <option value="$PROJECT_DIR$/src/week3/BaekJoon11650.java" />
+        <option value="$PROJECT_DIR$/src/week3/BaekJoon6603.java" />
       </list>
     </option>
   </component>
@@ -166,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BaekJoon11650">
+  <component name="RunManager" selected="Application.BaekJoon6603">
     <configuration name="BaekJoon11179" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week3.BaekJoon11179" />
       <module name="algorithm" />
@@ -189,6 +177,19 @@
     </configuration>
     <configuration name="BaekJoon1546" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week3.BaekJoon1546" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaekJoon6603" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.BaekJoon6603" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -320,9 +321,11 @@
       <item itemvalue="Application.BaekJoon11179" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.BaekJoon9625" />
+      <item itemvalue="Application.BaekJoon6603" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaekJoon6603" />
         <item itemvalue="Application.BaekJoon9625" />
         <item itemvalue="Application.BaekJoon11179" />
         <item itemvalue="Application.Main" />
@@ -347,12 +350,12 @@
       <workItem from="1590321895702" duration="6832000" />
       <workItem from="1590391590743" duration="8419000" />
       <workItem from="1590582397429" duration="4056000" />
-      <workItem from="1590732911820" duration="23111000" />
+      <workItem from="1590732911820" duration="29828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92564000" />
+    <option name="totallyTimeSpent" value="99281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -367,7 +370,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50209206" side_tool="true" weight="0.19027181" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.75178826" visible="true" weight="0.34457833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.75178826" visible="true" weight="0.40361446" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,7 +380,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6037196" weight="0.2554217" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.24821173" side_tool="true" weight="0.34457833" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.68454933" weight="0.32771084" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.68454933" weight="0.20843373" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -457,16 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon1546.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -564,16 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon9625.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -596,13 +579,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon1546.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon11650.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="272">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="e#928#929#0" expanded="true" />
             <marker date="1590908656451" expanded="true" signature="1833:1899" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon9625.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon6603.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
