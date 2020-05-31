@@ -1,12 +1,9 @@
 package week3;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Scanner;
-
+import java.util.*;
 public class BaekJoon11650 {
     public static void main(String[] args) {
-        HashMap<Integer, ArrayList<Integer>> arr = new HashMap<>();
+        TreeMap<Integer, ArrayList<Integer>> arr = new TreeMap<>();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for (int i = 0; i < n; i++) {
@@ -16,12 +13,12 @@ public class BaekJoon11650 {
             a.add(y);
             arr.put(x, a);
         }
+        Object[] mapkey = arr.keySet().toArray();
+        Arrays.sort(mapkey);
         for (Integer key : arr.keySet()) {
-            if (arr.get(key).size() > 1) {
-                ArrayList<Integer> src = arr.get(key);
-                mergeSort(src);
-                arr.put(key, src);
-            }
+            ArrayList<Integer> src = arr.get(key);
+            mergeSort(src);
+            arr.put(key, src);
             for (Integer val : arr.get(key)) {
                 System.out.println(key + " " + val);
             }
@@ -66,3 +63,11 @@ public class BaekJoon11650 {
         }
     }
 }
+
+
+//5
+//100000 100000
+//9999 9999
+//-100000 -100000
+//-9999 -9999
+//0 0
