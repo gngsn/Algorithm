@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class BaekJoon6603 {
-    static ArrayList<String> result = new ArrayList<>();
+    private static ArrayList<String> result = new ArrayList<>();
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (true) {
@@ -20,7 +20,7 @@ public class BaekJoon6603 {
         for(String r: result)
             System.out.print(r);
     }
-    static void combination(int[] arr, boolean[] visited, int start, int n, int r) {
+    private static void combination(int[] arr, boolean[] visited, int start, int n, int r) {
         if (r == 0) {
             addResultArray(arr, visited, n);
             return;
@@ -31,7 +31,7 @@ public class BaekJoon6603 {
             visited[i] = false;
         }
     }
-    static void addResultArray(int[] arr, boolean[] visited, int n) {
+    private static void addResultArray(int[] arr, boolean[] visited, int n) {
         String str = "";
         for (int i = 0; i < n; i++) {
             if (visited[i])
