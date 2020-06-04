@@ -1,10 +1,5 @@
-import java.io.*;
-import java.util.Arrays;
-
 class Combination {
     static void combinationUtil(int[] arr, boolean[] visited, int start, int n, int r) {
-        System.out.println("start : "+ start +", r : "+ r);
-        System.out.println("visited : "+ Arrays.toString(visited));
         if (r == 0) {
             for (int i = 0; i < n; i++) {
                 if (visited[i])
