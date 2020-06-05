@@ -1,67 +1,100 @@
 package week4;
+
+import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.Scanner;
+
 public class BaekJoon3190 {
-    static Scanner sc = new Scanner(System.in);
     static int[][] nxn;
-    static int n =0;
-    static int SNAKE = -1;
-    static int snakeLength = 1;
-    static int leftRight = 1; // 오른쪽이 1, 왼쪽이 -1 아니면 0
-    static int upDown = 0; // 아래가 1, 위가 -1 아니면 0
+    static int n = 0;
 
     public static void main(String[] args) {
-        n = sc.nextInt();
-        nxn = new int[n+1][n+1];
+        Scanner sc = new Scanner(System.in);
+        int SNAKE = -1;
+        int EMPTY = 0;
         int APPLE = 1;
+        int m = 0;
+        int x = 0;
+        int y = 0;
+        int s = 1;
+        int idx = 0;
+        int temp;
+        int leftRight = 1; // 오른쪽이 1, 왼쪽이 -1 아니면 0
+        int upDown = 0; // 아래가 1, 위가 -1 아니면 0
+        LinkedList<Pair> snake = new LinkedList<>();
+
+        n = sc.nextInt();
+        nxn = new int[n][n];
+
         int k = sc.nextInt();
         for (int i = 0; i < k; i++) {
-            int x = sc.nextInt();
-            int y = sc.nextInt();
-            nxn[x][y] = APPLE;
+            int ax = sc.nextInt();
+            int ay = sc.nextInt();
+            nxn[ax - 1][ay - 1] = APPLE;
         }
-        int line = sc.nextInt();
-        System.out.println("\n\nanswer : "+ letsGo(line));
-    }
-
-    static int letsGo(int l) {
-        int move = 0;
-        int x = 1;
-        int y = 1;
-        int temp;
-        int sec = 0;
+        int l = sc.nextInt();
+        int[] sec = new int[l];
+        String[] dir = new String[l];
         for (int i = 0; i < l; i++) {
-            int s = sc.nextInt() - sec;
-            String c = sc.next();
-            if (c.equals("D")) {
-                if (leftRight != 0) {
-                    temp = leftRight;
-                } else {
+            sec[i] = sc.nextInt();
+            dir[i] = sc.next();
+        }
+        System.out.println("sec : " + Arrays.toString(sec));
+        System.out.println("dir : " + Arrays.toString(dir));
+
+//        nxn[x][y] = SNAKE;
+        snake.offer(new Pair(x, y));
+
+        while (true) {
+            m++;
+            x += upDown;
+            y += leftRight;
+            if (x < 0 || y < 0 || x == n || y == n) break;
+            if (nxn[x][y] == SNAKE) break;
+            if (nxn[x][y] == APPLE) {
+                nxn[x][y] = EMPTY;
+            } else {
+                Pair p = snake.poll();
+                nxn[p.left][p.right] = EMPTY;
+            }
+            nxn[x][y] = SNAKE;
+            snake.offer(new Pair(x, y));
+            System.out.println("( x : " + x + " , y : " + y + " )");
+
+            if (idx < sec.length && s == sec[idx]) {
+                if (dir[idx].equals("D")) {
                     temp = leftRight;
                     upDown *= -1;
-                }
-            } else {
-                if (leftRight != 0) {
-                    temp = leftRight * -1;
                 } else {
-                    temp = leftRight;
+                    temp = leftRight * -1;
                 }
+                leftRight = upDown;
+                upDown = temp;
+                idx++;
             }
-            leftRight = upDown;
-            upDown = temp;
-            System.out.println("c : "+c);
-            System.out.println("leftRight : "+leftRight);
-            System.out.println("upDown : "+upDown);
-            for (int j=0; j < s; j++) {
-                move++;
-                x += leftRight;
-                y += upDown;
-                if ( x * y == 0 || x > n || y > n) return move;
-                System.out.println("( x : "+x+" , y : "+y + " )");
-                nxn[x][y] = SNAKE;
-            }
-            sec = s;
-            System.out.println("move : " + move);
+            s++;
         }
-        return move;
+        System.out.println(m);
     }
 }
+
+class Pair {
+    final int left;
+    final int right;
+
+    public Pair(int left, int right) {
+        this.left = left;
+        this.right = right;
+    }
+
+    static Pair of(int left, int right) {
+        return new Pair(left, right);
+    }
+}
+
+
+//    static void print() {
+//        for (int j = 0; j < nxn.length; j++) {
+//            System.out.println(Arrays.toString(nxn[j]));
+//        }
+//    }

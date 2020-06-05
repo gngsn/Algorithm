@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe81811-9d9d-4bae-bf67-b4a9b422a67a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week4/BaekJoon3190.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/week4/BaekJoon3079.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/week4/BaekJoon3079.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/week4/BaekJoon30792.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers/traffic_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week4/BaekJoon3079.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week4/BaekJoon3079.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week4/BaekJoon3190.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week4/BaekJoon3190.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +23,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/week4/BaekJoon3190.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
-              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            <state relative-caret-position="195">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2630#2631#0" expanded="true" />
+                <element signature="e#2676#2677#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,6 +48,9 @@
       <find>Integer</find>
       <find>Inte</find>
       <find>bfs</find>
+      <find>move</find>
+      <find>s</find>
+      <find>snakeLength</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -382,15 +386,16 @@
       <workItem from="1590391590743" duration="8419000" />
       <workItem from="1590582397429" duration="4056000" />
       <workItem from="1590732911820" duration="35149000" />
-      <workItem from="1591201505719" duration="21131000" />
+      <workItem from="1591201505719" duration="28147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125733000" />
+    <option name="totallyTimeSpent" value="132749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.13805436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -401,7 +406,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50209206" side_tool="true" weight="0.19027181" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.75178826" visible="true" weight="0.33975902" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.75178826" visible="true" weight="0.22048193" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -705,8 +710,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/week4/BaekJoon3190.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        <state relative-caret-position="195">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2630#2631#0" expanded="true" />
+            <element signature="e#2676#2677#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
