@@ -32,6 +32,7 @@ public class BaekJoon3079 {
 
         while (left <= right) {
             mid = (left + right) / 2;
+            System.out.println("mid : "+ mid);
 
             if (isPossible(mid)) {
                 result = Math.min(result, mid);
@@ -49,6 +50,7 @@ public class BaekJoon3079 {
         for (int i = 0; i < n; i++) {
             temp += t / time[i];
         }
+        System.out.println("temp : "+temp);
         return temp >= m;
     }
 }
