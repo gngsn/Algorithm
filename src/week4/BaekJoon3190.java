@@ -1,13 +1,9 @@
 package week4;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Scanner;
 
 public class BaekJoon3190 {
-    static int[][] nxn;
-    static int n = 0;
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int SNAKE = -1;
@@ -23,8 +19,8 @@ public class BaekJoon3190 {
         int upDown = 0; // 아래가 1, 위가 -1 아니면 0
         LinkedList<Pair> snake = new LinkedList<>();
 
-        n = sc.nextInt();
-        nxn = new int[n][n];
+        int n = sc.nextInt();
+        int[][] nxn = new int[n][n];
 
         int k = sc.nextInt();
         for (int i = 0; i < k; i++) {
@@ -39,13 +35,10 @@ public class BaekJoon3190 {
             sec[i] = sc.nextInt();
             dir[i] = sc.next();
         }
-        System.out.println("sec : " + Arrays.toString(sec));
-        System.out.println("dir : " + Arrays.toString(dir));
-
-//        nxn[x][y] = SNAKE;
-        snake.offer(new Pair(x, y));
 
         while (true) {
+            nxn[x][y] = SNAKE;
+            snake.offer(new Pair(x, y));
             m++;
             x += upDown;
             y += leftRight;
@@ -57,9 +50,6 @@ public class BaekJoon3190 {
                 Pair p = snake.poll();
                 nxn[p.left][p.right] = EMPTY;
             }
-            nxn[x][y] = SNAKE;
-            snake.offer(new Pair(x, y));
-            System.out.println("( x : " + x + " , y : " + y + " )");
 
             if (idx < sec.length && s == sec[idx]) {
                 if (dir[idx].equals("D")) {
@@ -77,7 +67,6 @@ public class BaekJoon3190 {
         System.out.println(m);
     }
 }
-
 class Pair {
     final int left;
     final int right;
@@ -85,10 +74,6 @@ class Pair {
     public Pair(int left, int right) {
         this.left = left;
         this.right = right;
-    }
-
-    static Pair of(int left, int right) {
-        return new Pair(left, right);
     }
 }
 
