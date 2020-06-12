@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe81811-9d9d-4bae-bf67-b4a9b422a67a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week4/BaekJoon2293.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4/BaekJoon2293_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4/BaekJoon2309.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4/BaekJoon2798.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4/BaekJoon2798_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week5/BaekJoon1919_recur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week5/BaekJoon5622.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/week4/BaekJoon3190.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/week4/BaekJoon3190.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/week4/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/week4/Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week4/BaekJoon3190.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week4/BaekJoon3190.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week5/BaekJoon1919_recur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/week5/BaekJoon1919.java">
+        <entry file="file://$PROJECT_DIR$/src/week5/BaekJoon5622.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="340">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -128,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/week4/BaekJoon2798_2.java" />
         <option value="$PROJECT_DIR$/src/week5/BaekJoon1919_recur.java" />
         <option value="$PROJECT_DIR$/src/week5/BaekJoon1919.java" />
+        <option value="$PROJECT_DIR$/src/week5/BaekJoon5622.java" />
       </list>
     </option>
   </component>
@@ -159,12 +143,6 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="week4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -214,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BaekJoon1919">
+  <component name="RunManager" selected="Application.BaekJoon5622">
     <configuration name="BaekJoon11650" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week3.BaekJoon11650" />
       <module name="algorithm" />
@@ -306,12 +284,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaekJoon3190" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4.BaekJoon3190" />
+    <configuration name="BaekJoon5622" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week5.BaekJoon5622" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4.*" />
+          <option name="PATTERN" value="week5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -414,19 +392,19 @@
     <list>
       <item itemvalue="Application.BaekJoon11650" />
       <item itemvalue="Application.BaekJoon1546" />
-      <item itemvalue="Application.BaekJoon3190" />
       <item itemvalue="Application.BaekJoon2293" />
       <item itemvalue="Application.BaekJoon2309" />
       <item itemvalue="Application.BaekJoon2798" />
       <item itemvalue="Application.BaekJoon1919" />
+      <item itemvalue="Application.BaekJoon5622" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaekJoon5622" />
         <item itemvalue="Application.BaekJoon1919" />
         <item itemvalue="Application.BaekJoon1919_recur" />
         <item itemvalue="Application.BaekJoon2798" />
         <item itemvalue="Application.BaekJoon2309" />
-        <item itemvalue="Application.BaekJoon2293" />
       </list>
     </recent_temporary>
   </component>
@@ -450,12 +428,12 @@
       <workItem from="1590732911820" duration="35149000" />
       <workItem from="1591201505719" duration="43473000" />
       <workItem from="1591535787076" duration="3438000" />
-      <workItem from="1591965979983" duration="6456000" />
+      <workItem from="1591965979983" duration="8483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157969000" />
+    <option name="totallyTimeSpent" value="159996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -801,6 +779,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/week5/BaekJoon1919.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/week5/BaekJoon1919_recur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -818,10 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week5/BaekJoon1919.java">
+    <entry file="file://$PROJECT_DIR$/src/week5/BaekJoon5622.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="340">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
