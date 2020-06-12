@@ -9,12 +9,10 @@ public class BaekJoon3190 {
         int SNAKE = -1;
         int EMPTY = 0;
         int APPLE = 1;
-        int m = 0;
+        int m = 0; // 움직인 횟수 & 시간 카운팅
         int x = 0;
         int y = 0;
-        int s = 1;
         int idx = 0;
-        int temp;
         int leftRight = 1; // 오른쪽이 1, 왼쪽이 -1 아니면 0
         int upDown = 0; // 아래가 1, 위가 -1 아니면 0
         LinkedList<Pair> snake = new LinkedList<>();
@@ -39,30 +37,39 @@ public class BaekJoon3190 {
         while (true) {
             nxn[x][y] = SNAKE;
             snake.offer(new Pair(x, y));
+            // 이동 시간 증가
             m++;
+
+            // 이동할 x 좌표와 y좌표를 설정
             x += upDown;
             y += leftRight;
+
+            // 종료 조건
             if (x < 0 || y < 0 || x == n || y == n) break;
             if (nxn[x][y] == SNAKE) break;
             if (nxn[x][y] == APPLE) {
                 nxn[x][y] = EMPTY;
             } else {
+                // 만약, 사과를 먹지 않았다면 원래 있던 자리에서 없어지고 다음칸으로 이동
                 Pair p = snake.poll();
                 nxn[p.left][p.right] = EMPTY;
             }
 
-            if (idx < sec.length && s == sec[idx]) {
+            // 만약, 뱀이 이동경로를 바꿔야 한다면 경로 바꿔주기
+            if (idx < sec.length && m == sec[idx]) {
+                int temp;
                 if (dir[idx].equals("D")) {
+                    // 오른쪽으로 돌 때의 규칙
                     temp = leftRight;
                     upDown *= -1;
                 } else {
+                    // 왼쪽으로 돌 때의 규칙
                     temp = leftRight * -1;
                 }
                 leftRight = upDown;
                 upDown = temp;
                 idx++;
             }
-            s++;
         }
         System.out.println(m);
     }
