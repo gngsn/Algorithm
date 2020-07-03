@@ -2,8 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe81811-9d9d-4bae-bf67-b4a9b422a67a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week5/BaekJoon5622.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/week5/BaekJoon14888.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/DFSwithGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/FS/travelRoute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1/BaekJoon10162.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week1/BaekJoon10162.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1/BaekJoon10807.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week1/BaekJoon10807.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1/BaekJoon13300.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week1/BaekJoon13300.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1/BaekJoon14501.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week1/BaekJoon14501.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1/BaekJoon1475.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week1/BaekJoon1475.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1/BaekJoon2477.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week1/BaekJoon2477.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week2/BaekJoon10804.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week2/BaekJoon10804.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week2/BaekJoon1267.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week2/BaekJoon1267.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week2/BaekJoon15894.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week2/BaekJoon15894.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week2/BaekJoon2178.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week2/BaekJoon2178.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week3/BaekJoon11179.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week3/BaekJoon11179.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week3/BaekJoon11650.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week3/BaekJoon11650.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week3/BaekJoon1546.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week3/BaekJoon1546.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week3/BaekJoon6603.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week3/BaekJoon6603.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week3/BaekJoon9625.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week3/BaekJoon9625.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week4/BaekJoon2293.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week4/BaekJoon2293.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week4/BaekJoon2293_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week4/BaekJoon2293_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week4/BaekJoon2309.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week4/BaekJoon2309.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week4/BaekJoon2798.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week4/BaekJoon2798.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week4/BaekJoon2798_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week4/BaekJoon2798_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week4/BaekJoon3079.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week4/BaekJoon3079.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week4/BaekJoon3190.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week4/BaekJoon3190.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week5/BaekJoon1919.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week5/BaekJoon1919.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week5/BaekJoon1919_recur.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week5/BaekJoon1919_recur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week5/BaekJoon5622.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/week5/BaekJoon5622.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +48,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/week5/BaekJoon5622.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon/week5/BaekJoon14888.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week4/BaekJoon3079.java">
+        <entry file="file://$PROJECT_DIR$/practice/DFSwithGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="64" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="64" />
+            <state relative-caret-position="332">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/programmers/FS/travelRoute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,6 +103,8 @@
       <find>n</find>
       <find>469</find>
       <find>497</find>
+      <find>[</find>
+      <find>visited</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,8 +132,6 @@
         <option value="$PROJECT_DIR$/practice/BFS.java" />
         <option value="$PROJECT_DIR$/practice/bfs.java" />
         <option value="$PROJECT_DIR$/practice/GraphPractice.java" />
-        <option value="$PROJECT_DIR$/practice/BFSwithGraph.java" />
-        <option value="$PROJECT_DIR$/practice/Graph.java" />
         <option value="$PROJECT_DIR$/src/dd.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon11179.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon9625.java" />
@@ -112,6 +154,14 @@
         <option value="$PROJECT_DIR$/src/week5/BaekJoon1919_recur.java" />
         <option value="$PROJECT_DIR$/src/week5/BaekJoon1919.java" />
         <option value="$PROJECT_DIR$/src/week5/BaekJoon5622.java" />
+        <option value="$PROJECT_DIR$/src/week5/BaekJoon14888.java" />
+        <option value="$PROJECT_DIR$/Baekjoon/week1/BaekJoon1475.java" />
+        <option value="$PROJECT_DIR$/practice/BFSwithGraph.java" />
+        <option value="$PROJECT_DIR$/practice/DFS.java" />
+        <option value="$PROJECT_DIR$/practice/DFSwithGraph.java" />
+        <option value="$PROJECT_DIR$/practice/Graph.java" />
+        <option value="$PROJECT_DIR$/FS/travelRoute.java" />
+        <option value="$PROJECT_DIR$/programmers/FS/travelRoute.java" />
       </list>
     </option>
   </component>
@@ -126,7 +176,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,22 +191,22 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="week5" type="462c0819:PsiDirectoryNode" />
+              <item name="programmers" type="462c0819:PsiDirectoryNode" />
+              <item name="FS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -170,6 +219,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.13064516" />
+    <property name="project.structure.side.proportion" value="0.24581006" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="settings.editor.splitter.proportion" value="0.23394495" />
@@ -178,6 +230,10 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="week5" />
       <recent name="week4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/programmers" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BaekJoon5622">
+  <component name="RunManager" selected="Application.travelRoute (1)">
     <configuration name="BaekJoon11650" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week3.BaekJoon11650" />
       <module name="algorithm" />
@@ -232,58 +288,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaekJoon1919_recur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week5.BaekJoon1919_recur" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaekJoon2293" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4.BaekJoon2293" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaekJoon2309" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4.BaekJoon2309" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaekJoon2798" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4.BaekJoon2798" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BaekJoon5622" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week5.BaekJoon5622" />
       <module name="algorithm" />
@@ -293,6 +297,33 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DFSwithGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFSwithGraph" />
+      <module name="algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="travelRoute (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FS.travelRoute" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="travelRoute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="travelRoute" />
+      <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -392,19 +423,19 @@
     <list>
       <item itemvalue="Application.BaekJoon11650" />
       <item itemvalue="Application.BaekJoon1546" />
-      <item itemvalue="Application.BaekJoon2293" />
-      <item itemvalue="Application.BaekJoon2309" />
-      <item itemvalue="Application.BaekJoon2798" />
       <item itemvalue="Application.BaekJoon1919" />
       <item itemvalue="Application.BaekJoon5622" />
+      <item itemvalue="Application.DFSwithGraph" />
+      <item itemvalue="Application.travelRoute" />
+      <item itemvalue="Application.travelRoute (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.travelRoute (1)" />
+        <item itemvalue="Application.travelRoute" />
+        <item itemvalue="Application.DFSwithGraph" />
         <item itemvalue="Application.BaekJoon5622" />
         <item itemvalue="Application.BaekJoon1919" />
-        <item itemvalue="Application.BaekJoon1919_recur" />
-        <item itemvalue="Application.BaekJoon2798" />
-        <item itemvalue="Application.BaekJoon2309" />
       </list>
     </recent_temporary>
   </component>
@@ -428,18 +459,21 @@
       <workItem from="1590732911820" duration="35149000" />
       <workItem from="1591201505719" duration="43473000" />
       <workItem from="1591535787076" duration="3438000" />
-      <workItem from="1591965979983" duration="8483000" />
+      <workItem from="1591965979983" duration="9498000" />
+      <workItem from="1592139054994" duration="1484000" />
+      <workItem from="1592756765500" duration="344000" />
+      <workItem from="1593758559274" duration="8778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159996000" />
+    <option name="totallyTimeSpent" value="171617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.19384836" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.20243205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -448,7 +482,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50209206" side_tool="true" weight="0.19027181" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.75178826" visible="true" weight="0.32289156" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.75178826" visible="true" weight="0.2987952" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,9 +490,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6037196" weight="0.16385542" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6037196" weight="0.3180723" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.24821173" side_tool="true" weight="0.34457833" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.68454933" weight="0.38554215" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.68454933" weight="0.18674698" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
@@ -510,16 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -528,7 +552,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/week2/BaekJoon10804.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week2/BaekJoon10804.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -538,14 +562,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week2/BaekJoon1267.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week2/BaekJoon1267.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week2/BaekJoon15894.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week2/BaekJoon15894.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -555,7 +579,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week2/BaekJoon2178.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week2/BaekJoon2178.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -565,7 +589,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week1/BaekJoon1475.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week1/BaekJoon2477.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -575,17 +599,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week1/BaekJoon2477.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week1/BaekJoon13300.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week1/BaekJoon13300.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -595,45 +609,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week1/BaekJoon14501.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week1/BaekJoon14501.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week1/BaekJoon10162.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week1/BaekJoon10162.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week1/BaekJoon10807.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week1/BaekJoon10807.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="22" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="522" column="5" lean-forward="true" selection-start-line="522" selection-start-column="5" selection-end-line="522" selection-end-column="5" />
-          <folding>
-            <element signature="e#6338#6339#0" expanded="true" />
-            <element signature="e#6406#6407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/BFSwithGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -663,7 +656,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week4/BaekJoon3190.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week4/BaekJoon3190.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="29" />
@@ -684,7 +677,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week4/BaekJoon2293.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week4/BaekJoon2293.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
@@ -694,7 +687,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week4/BaekJoon2293_2.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week4/BaekJoon2293_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
@@ -704,7 +697,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon9625.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week3/BaekJoon9625.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
@@ -714,7 +707,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon11179.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week3/BaekJoon11179.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
@@ -724,7 +717,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon11650.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week3/BaekJoon11650.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-238">
           <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
@@ -735,7 +728,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon1546.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week3/BaekJoon1546.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
@@ -745,7 +738,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3/BaekJoon6603.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week3/BaekJoon6603.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
@@ -755,7 +748,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week4/BaekJoon2309.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week4/BaekJoon2309.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
@@ -765,48 +758,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week4/BaekJoon2798.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week4/BaekJoon2798.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week4/BaekJoon2798_2.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week4/BaekJoon2798_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week5/BaekJoon1919.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week5/BaekJoon1919.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="46" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week5/BaekJoon1919_recur.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week5/BaekJoon1919_recur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week4/BaekJoon3079.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week4/BaekJoon3079.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="11" column="64" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="64" />
+          <caret line="11" column="64" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week5/BaekJoon5622.java">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week1/BaekJoon1475.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="136">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/BFSwithGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="50" selection-start-line="4" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week5/BaekJoon14888.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon/week5/BaekJoon5622.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/DFSwithGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+          <folding>
+            <element signature="e#6338#6339#0" expanded="true" />
+            <element signature="e#6406#6407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/FS/travelRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -819,6 +884,75 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>algorithm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24581006" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24581006" />
               </list>
             </option>
           </splitter-proportions>
