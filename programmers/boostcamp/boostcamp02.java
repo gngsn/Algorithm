@@ -4,24 +4,24 @@ import java.util.*;
 public class boostcamp02 {
     static int[] solution(int[] arrayA, int[] arrayB) {
         int[] answer = new int[5];
-
         List<Integer> a = makeList(arrayA);
         List<Integer> b = makeList(arrayB);
 
         Set<Integer> ah = new HashSet();
-        ah.addAll(a);
         Set<Integer> bh = new HashSet();
+
+        ah.addAll(a);
         bh.addAll(b);
 
         Set<Integer> s = sum(a, b);
         List<Integer> c = complement(a, b);
         List<Integer> i = intersaction(a, b);
 
-        answer[0] = a.size();
-        answer[1] = b.size();
-        answer[2] = s.size();
-        answer[3] = c.size();
-        answer[4] = i.size();
+        answer[0] = ah.size();
+        answer[0] = bh.size();
+        answer[0] = s.size();
+        answer[0] = c.size();
+        answer[0] = i.size();
 
         return answer;
     }
@@ -29,11 +29,11 @@ public class boostcamp02 {
     static List<Integer> complement(List<Integer> base, List<Integer> other) {
         ArrayList<Integer> arr = new ArrayList<>();
         int i = 0;
-        for(int b : base) {
-            if(!other.contains(b) && !arr.contains(b)) {
+        for(int b : base)
+            if(!other.contains(b) && !arr.contains(b))
                 arr.add(i++, b);
-            }
-        }
+        if (arr.size() == 0)
+            return base;
         return arr;
     }
 
@@ -52,6 +52,7 @@ public class boostcamp02 {
         Set<Integer> s = new HashSet();
         s.addAll(base);
         s.addAll(other);
+
         return s;
     }
 
@@ -67,6 +68,7 @@ public class boostcamp02 {
         int[] b = {1, 3};
         int[] a2 = {2,3,4,3,5};
         int[] b2 = {1,6,7};
-        System.out.println(Arrays.toString(solution(a2, b2)));
+
+        System.out.println(solution(a2, b2));
     }
 }
