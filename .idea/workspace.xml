@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe81811-9d9d-4bae-bf67-b4a9b422a67a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codility/naver/question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codility/naver/question2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codility/naver/question3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codility/naver/question4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/regex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codility/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/codility/demo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,34 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codility/naver/question1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codility/naver/question2.java">
+        <entry file="file://$PROJECT_DIR$/practice/regex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codility/demo.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/regex/Pattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            <state relative-caret-position="20540">
+              <caret line="1067" column="36" selection-start-line="1067" selection-start-column="36" selection-end-line="1067" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#54758#54759#0" expanded="true" />
+                <element signature="e#54802#54803#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/practice/greedy.java" />
         <option value="$PROJECT_DIR$/practice/activitySelection.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon10804.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon14501.java" />
@@ -139,6 +123,7 @@
         <option value="$PROJECT_DIR$/codility/naver/question3.java" />
         <option value="$PROJECT_DIR$/codility/naver/question4.java" />
         <option value="$PROJECT_DIR$/codility/naver/question2.java" />
+        <option value="$PROJECT_DIR$/practice/regex.java" />
       </list>
     </option>
   </component>
@@ -152,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -160,43 +146,10 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Baekjoon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Baekjoon" type="462c0819:PsiDirectoryNode" />
-              <item name="week1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="codility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="codility" type="462c0819:PsiDirectoryNode" />
-              <item name="naver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="programmers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.question2">
+  <component name="RunManager" selected="Application.regex">
     <configuration name="BaekJoon11650" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week3.BaekJoon11650" />
       <module name="algorithm" />
@@ -276,13 +229,6 @@
     </configuration>
     <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo" />
-      <module name="algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="hashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashmap" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -323,6 +269,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="regex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="regex" />
+      <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -422,19 +375,19 @@
     <list>
       <item itemvalue="Application.BaekJoon11650" />
       <item itemvalue="Application.BaekJoon1546" />
-      <item itemvalue="Application.hashmap" />
       <item itemvalue="Application.demo" />
       <item itemvalue="Application.question1" />
       <item itemvalue="Application.question3" />
       <item itemvalue="Application.question2" />
+      <item itemvalue="Application.regex" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.regex" />
         <item itemvalue="Application.question2" />
         <item itemvalue="Application.question3" />
         <item itemvalue="Application.question1" />
         <item itemvalue="Application.demo" />
-        <item itemvalue="Application.hashmap" />
       </list>
     </recent_temporary>
   </component>
@@ -464,18 +417,21 @@
       <workItem from="1593758559274" duration="15619000" />
       <workItem from="1593845701449" duration="509000" />
       <workItem from="1594018137594" duration="5239000" />
-      <workItem from="1595602006243" duration="10445000" />
+      <workItem from="1595602006243" duration="10607000" />
+      <workItem from="1595841902699" duration="438000" />
+      <workItem from="1597477246871" duration="1940000" />
+      <workItem from="1597648820741" duration="8822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194651000" />
+    <option name="totallyTimeSpent" value="206013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.1223176" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.12660944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -484,7 +440,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50209206" side_tool="true" weight="0.19027181" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75178826" weight="0.277707" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.75178826" visible="true" weight="0.33375797" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -492,9 +448,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6037196" weight="0.31592357" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6037196" weight="0.18471338" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.24821173" side_tool="true" weight="0.34457833" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.68454933" visible="true" weight="0.3566879" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.68454933" weight="0.3566879" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
@@ -514,23 +470,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Baekjoon/week2/BaekJoon10804.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon/week2/BaekJoon1267.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Baekjoon/week2/BaekJoon15894.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -905,23 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codility/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codility/naver/question1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codility/naver/question4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -947,12 +869,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/codility/naver/question1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codility/demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/codility/naver/question2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
+        <state relative-caret-position="417">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/regex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20540">
+          <caret line="1067" column="36" selection-start-line="1067" selection-start-column="36" selection-end-line="1067" selection-end-column="36" />
+          <folding>
+            <element signature="e#54758#54759#0" expanded="true" />
+            <element signature="e#54802#54803#0" expanded="true" />
           </folding>
         </state>
       </provider>
