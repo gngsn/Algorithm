@@ -26,21 +26,35 @@ public class regex {
 
 
         // Matcher
-        String REGEX = "a*b";
-        String INPUT = "aabfooabfooaabfoo";
-        String REPLACE = "-";
-        Pattern pattern = Pattern.compile(REGEX);
-
-        Matcher matcher = pattern.matcher(INPUT);
-        StringBuffer buffer = new StringBuffer();
-
-
-        while (matcher.find()) {
-            System.out.println(matcher.group());
-        }
+//        String REGEX = "(a*b)";
+//        String INPUT = "aabfooabfooaabfoo";
+//        String REPLACE = "-";
+//        Pattern pattern = Pattern.compile(REGEX);
+//
+//
+//        Matcher matcher = pattern.matcher(INPUT);
+//        StringBuffer buffer = new StringBuffer();
+//
+//        while (matcher.find()) {
+//            System.out.println(matcher.group(2));
+//        }
 //        System.out.println(buffer.toString());
 //        matcher.appendTail(buffer);
 //        System.out.println(buffer.toString());
 
+
+        // Matcher - start, end
+        String REGEX = "a*b";
+        String INPUT = "aabfooabfooaabfoo";
+        Pattern pattern = Pattern.compile(REGEX);
+
+        Matcher matcher = pattern.matcher(INPUT);
+        while (matcher.find()) {
+            System.out.println(matcher.start());
+        }
+//
+        while (matcher.find()) {
+            System.out.println(matcher.end());
+        }
     }
 }
