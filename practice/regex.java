@@ -27,7 +27,7 @@ public class regex {
 
         // Matcher
         String REGEX = "a*b";
-        String INPUT = "aabfooaabfooabfoo";
+        String INPUT = "aabfooabfooaabfoo";
         String REPLACE = "-";
         Pattern pattern = Pattern.compile(REGEX);
 
@@ -36,12 +36,11 @@ public class regex {
 
 
         while (matcher.find()) {
-            matcher.appendReplacement(buffer, REPLACE);
-            System.out.println(buffer.toString());
+            System.out.println(matcher.group());
         }
 //        System.out.println(buffer.toString());
 //        matcher.appendTail(buffer);
-        System.out.println(buffer.toString());
+//        System.out.println(buffer.toString());
 
     }
 }
