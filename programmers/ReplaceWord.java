@@ -15,20 +15,19 @@ public class ReplaceWord {
         for (int i = 0; i < words.length; i++) {
             if (index != i && isOneDiffer(begin, words[i]) && !visited[i]) {
                 ans = dfs(words[i], target, i, visited, words, cnt + 1);
-                System.out.println("index : " + index +" cnt : " + cnt+" ans : " + ans);
             }
         }
         return ans;
     }
 
     static public int solution(String begin, String target, String[] words) {
-        int answer = 0;
         int v = words.length + 1;
+        int answer = v;
 
         for (int i = 0; i < words.length; i++) {
             boolean[] visited = new boolean[v];
             if (isOneDiffer(begin, words[i])) {
-                answer = dfs(words[i], target, i, visited, words, 1);
+                answer = Math.min(answer, dfs(words[i], target, i, visited, words, 1));
             }
         }
         return answer;

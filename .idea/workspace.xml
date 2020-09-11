@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe81811-9d9d-4bae-bf67-b4a9b422a67a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/algorithm/ReplaceWord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithm/TargetNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithm/network.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmers/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmers/ReplaceWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmers/TargetNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/ReplaceWordBFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/regex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/ReplaceWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/ReplaceWord.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programmers/ReplaceWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="235">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/programmers/ReplaceWordBFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BaekJoon2178.java" />
         <option value="$PROJECT_DIR$/practice/graph.java" />
         <option value="$PROJECT_DIR$/practice/BFS.java" />
         <option value="$PROJECT_DIR$/practice/bfs.java" />
@@ -135,6 +141,7 @@
         <option value="$PROJECT_DIR$/programmers/network.java" />
         <option value="$PROJECT_DIR$/programmers/Network.java" />
         <option value="$PROJECT_DIR$/programmers/ReplaceWord.java" />
+        <option value="$PROJECT_DIR$/programmers/ReplaceWordBFS.java" />
       </list>
     </option>
   </component>
@@ -202,6 +209,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="naver" />
       <recent name="week5" />
       <recent name="week4" />
@@ -223,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReplaceWord">
+  <component name="RunManager" selected="Application.ReplaceWordBFS">
     <configuration name="BaekJoon11650" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week3.BaekJoon11650" />
       <module name="algorithm" />
@@ -271,15 +279,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TargetNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TargetNumber" />
+    <configuration name="ReplaceWordBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReplaceWordBFS" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="regex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="regex" />
+    <configuration name="TargetNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TargetNumber" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -380,19 +388,19 @@
     <list>
       <item itemvalue="Application.BaekJoon11650" />
       <item itemvalue="Application.BaekJoon1546" />
-      <item itemvalue="Application.regex" />
       <item itemvalue="Application.DFSwithGraph" />
       <item itemvalue="Application.TargetNumber" />
       <item itemvalue="Application.Network" />
       <item itemvalue="Application.ReplaceWord" />
+      <item itemvalue="Application.ReplaceWordBFS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReplaceWordBFS" />
         <item itemvalue="Application.ReplaceWord" />
         <item itemvalue="Application.Network" />
         <item itemvalue="Application.TargetNumber" />
         <item itemvalue="Application.DFSwithGraph" />
-        <item itemvalue="Application.regex" />
       </list>
     </recent_temporary>
   </component>
@@ -428,12 +436,12 @@
       <workItem from="1597648820741" duration="13503000" />
       <workItem from="1598942750019" duration="140000" />
       <workItem from="1599650007739" duration="7708000" />
-      <workItem from="1599719118399" duration="10715000" />
+      <workItem from="1599719118399" duration="13883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229257000" />
+    <option name="totallyTimeSpent" value="232425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -456,7 +464,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6037196" weight="0.16385542" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6037196" weight="0.3060241" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.24821173" side_tool="true" weight="0.34457833" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.68454933" weight="0.3566265" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -478,7 +486,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/week4/BaekJoon30792.java" />
     <entry file="file://$PROJECT_DIR$/programmers/traffic_2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1520">
@@ -628,16 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="11" column="64" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/BFSwithGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="50" selection-start-line="4" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -914,10 +911,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/practice/BFSwithGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/programmers/ReplaceWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="235">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/ReplaceWordBFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
