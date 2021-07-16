@@ -74,6 +74,7 @@ int main() {
         {"PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX"},
         {"OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"},
         {"PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"}};
-    solution(places);
+    
+//    solution(places);
     return 0;
 }
