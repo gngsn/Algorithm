@@ -11,30 +11,40 @@
 
 using namespace std;
 
+
 int solution(int m, int n, vector<vector<int>> puddles) {
-    int answer = 0;
-    vector<vector<int>> pos;
-    int weight = 0;
-    pos[0][0] = weight++;
-    
-    
-    for (int i=0; i < n; i++) {
-        for (int j=0; j < m; j++) {
-            if (i == 0) {
-                pos[i][j] = pos[i][j-1];
+    vector<vector<int>> board(n+1, vector<int>(m+1, 1));
+
+    for(int i = 0; i < puddles.size(); i++) {
+        int y = puddles[i][1];
+        int x = puddles[i][0];
+
+        board[y][x] = 0;
+
+        if(x == 1)
+            for(int j = y; j <=n; j++)
+                board[j][1] = 0;
+
+        if(y == 1)
+            for(int j = x; j <= m; j++)
+                board[1][j] = 0;
+    }
+
+
+    for(int y = 2; y <= n; y++) {
+        for(int x = 2; x <= m; x++) {
+            if(board[y][x] == 0)
                 continue;
-            }
-            if (j == 0)
-                pos[i][j] = weight;
-            pos[i][j] = pos[i][j-1] > pos[i-1][j] ? pos[i-1][j]: pos[i][j];
-            weight++;
+
+            board[y][x] = (board[y-1][x] + board[y][x-1]) % 1000000007;
         }
     }
-    return answer;
-}
 
+    return board[n][m];
+}
 int main() {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    int answer = solution(4, 3, {{2, 2}});
+//    int answer = solution(4, 3, {{2, 2}});
+    cout << "answer : " << answer << endl;
     return 0;
 }
