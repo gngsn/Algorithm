@@ -8,18 +8,16 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include <unordered_map>
 
 using namespace std;
 
 bool solution(vector<string> p) {
-    for (int i = 0; i < p.size(); i++) {
-        for (int j = i+1; j < p.size(); j++) {
-            p[i] & p[j];
-            if(p[i].size() == p[j].size()) continue;
-            int size = min(p[i].size(), p[j].size());
-            if(p[i].substr(0, size).compare(p[j].substr(0, size)) == 0) return false;
-        }
-    }
+    unordered_map<string, int> m;
+    for (int i = 0; i < p.size(); i++) m[p[i]] = 1;
+    for (int i = 0; i < p.size(); i++)
+        for (int j = 0; j < p[i].size(); j++)
+            if (m[p[i].substr(0, j)]) return false;
     return true;
 }
 
@@ -30,5 +28,3 @@ int main() {
     cout << "result : " << result << endl;
     return 0;
 }
-
-
