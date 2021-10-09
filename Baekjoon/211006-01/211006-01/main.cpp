@@ -28,18 +28,37 @@ bool isPrime(int n) {
 map<string, int> m;
 void combination(string arr, string comb, int r, int index, int depth) {
     if (r == 0) {
-        for(int i = 0; i < comb.size(); i++)
-            cout << comb[i] << " ";
-        cout << endl;
+        if(isPrime(stoi(comb)) && !m[comb]) m[comb] = 1;
+        cout << comb << endl;
+    } else if (depth == arr.size()) {
+        return;
+    } else {
+        comb[index] = arr[depth];
+        if (comb[0] != '0')
+            combination(arr, comb, r - 1, index + 1, depth + 1);
+        combination(arr, comb, r, index, depth + 1);
     }
-    else if (depth == arr.size()) {
+}
+
+void swap(char & a, char & b) {
+    char temp = a;
+    a = b;
+    b = temp;
+}
+
+void permutation(char data [], int depth, int n, int r) {
+    if (depth == r) {
+        for(int i = 0; i < r; i++)
+            cout << data[i] << " ";
+        cout << endl;
+        
         return;
     }
     
-    else {
-        comb[index] = arr[depth];
-        combination(arr, comb, r - 1, index + 1, depth + 1);
-        combination(arr, comb, r, index, depth + 1);
+    for(int i = depth; i < n; i++) {
+        swap(data[depth], data[i]);   // 스왑
+        permutation(data, depth + 1, n, r);  // ⭐재귀
+        swap(data[depth], data[i]);  // 다시 원래 위치로 되돌리기
     }
 }
 
@@ -50,18 +69,25 @@ bool match(string numbers, int n) {
 
 int solution(string numbers) {
     int answer = 0;
-    combination(numbers, "", 3, 0, 0);
-    for (int i =0; i<numbers.size(); i++) {
+    string com = "aaa";
+    char arr [] = {'a', 'b', 'c', 'd'};
+       
+   permutation(arr, 0, 4, 3); // 4P3
+
+//    combination(numbers, com, 3, 0, 0);
+    
+    for (auto it = m.begin(); it != m.end(); it++)
+        cout << "key : " << it->first << " ";
+//    for (int i =0; i<numbers.size(); i++) {
 //        match(numbers, i);
-        
-    }
+//    }
     
     return answer;
 }
 
 
 int main() {
-    int result = solution("01231");
+    int result = solution("012031");
     cout << "\nresult : " << result << endl;
     return 1;
 }
