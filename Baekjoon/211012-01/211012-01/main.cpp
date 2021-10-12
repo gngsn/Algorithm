@@ -4,11 +4,9 @@
 //
 //  Created by 박경선 on 2021/10/12.
 //
-
-#include <iostream>
 #include <string>
 #include <vector>
-#include <cctype>
+#include <algorithm>
 
 using namespace std;
 
@@ -52,11 +50,10 @@ vector<string> solution(vector<string> files) {
     }
     
     stable_sort(vf.begin(), vf.end(), comp);
-    
-    for (File ff : vf) cout << ff.raw << " "  << endl;
-
+    for (File file : vf) answer.push_back(file.raw);
     return answer;
 }
+
 
 int main(int argc, const char * argv[]) {
     vector<string> result = solution({"img12.png", "abc10.png", "img02.png", "IMG01.GIF", "img1.png", "img2.JPG"});
