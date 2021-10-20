@@ -1,4 +1,4 @@
-#!/bin/python3
+# !/bin/python3
 
 import math
 import os
@@ -28,11 +28,11 @@ def formingMagicSquare(s):
         sum = 0
         for x in range(0, len(m[i])):
             for y in range(0, len(m[x])):
-                print("s[i][x][y] : ", s[i][x])
-                print("m[i][x][y] : ", m[i][x][y])
                 sum += abs(s[x][y] - m[i][x][y])
                 if sum > min : break
-        if sum < min : min = sum
+        if sum < min : 
+            min = sum
+            print("i : ", i, "sum : ", sum)
         
     return min
 
