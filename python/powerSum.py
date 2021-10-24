@@ -5,6 +5,7 @@ import os
 import random
 import re
 import sys
+from itertools import combinations
 
 #
 # Complete the 'powerSum' function below.
@@ -15,48 +16,53 @@ import sys
 #  2. INTEGER N
 #
 
-dic = {}
+# def powerSum(X, N):
+#     dic = []
+#     dp = [0] * (X+1)
+#     for i in range(1, int(X**(1/N)+1)):
+#         dic.append(pow(i, N))
 
-def comb(lst, n):
-    ret = []
-    if n > len(lst): return ret
+#     dp[0]=1
+#     for k in dic:
+#         print('k : ', k)
+#         for n in range(X-k, -1, -1):
+#             if dp[n] > 0 :
+#                 dp[n+k] += dp[n]
     
-    print ('lst : ', lst)
-    if n == 1:
-        for i in lst:
-            ret.append([i])
-    elif n > 1:
-        for i in range(len(lst)-n+1):
-            for temp in comb(lst[i+1:],n-1):
-                ret.append([lst[i]]+temp)
+#     print('dp : ', dp)
+#     return dp[X]
 
-    return ret
+def comb(array, r):
+    print('array : ', array)
+    for i in range(len(array)):
+        if r == 1:
+            yield [array[i]]
+        else:
+            for next in comb(array[i+1:], r-1):
+                yield [array[i]] + next
 
-# def comb(arr, sub, r, i, depth):
-#     print('arr : ', arr)
-#     print('sub : ', sub)
-#     print('depth : ', depth)
-#     if depth == len(arr):
-#         return False
-#     if r == 0: #check
-        # sum = 0
-        # for s in sub:
-        #     sum += dic[s]
-        # return sum
-    
-#     sub.append(arr[depth])
-#     comb(arr, sub[:], r-1, i+1, depth+1)
-#     comb(arr, sub[:], r, i, depth+1)
 
 def powerSum(X, N):
-    for i in range(int(X**(1/N))):
-        dic[i] = pow(i, N)
+    p = []
+    answer = 0
+    for i in range(1, int(X**(1/N)+1)):
+        p.append(pow(i, N))
     
-    for i in range(int(X**(1/N))):
-        ret = comb(list(dic.keys()), 3)
     
-    print('dic : ', dic)
-    # for 
+    
+    print('comb : ',next(comb(p, 2)))
+    dic = {}
+    # for i in range(1, len(p)+1):
+    #     lst = combinations(p, i)
+    #     # print('lst : ', list(lst))
+
+    #     for tpl in lst:
+    #         dic[tpl] = sum(tpl)
+    #         if sum(tpl) == X : answer += 1
+
+    return answer
+
+
 
 if __name__ == '__main__':
     f = open('./input.txt', 'r+')
