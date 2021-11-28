@@ -79,13 +79,13 @@ void find(vector<int> nums, int idx, int cnt, int sum) {
 int solution(vector<int> nums) {
     int answer = 0;
     clock_t begin = clock();
-    find(nums, 0, 0, 0);
-//    for(int i=0;i<nums.size()-2;i++)
-//        for(int j=i+1;j<nums.size()-1;j++)
-//            for(int k=j+1;k<nums.size();k++) {
-//                int sum = nums[i] + nums[j] + nums[k];
-//                if(isPrime(sum)) answer++;
-//            }
+//    find(nums, 0, 0, 0);
+    for(int i=0;i<nums.size()-2;i++)
+        for(int j=i+1;j<nums.size()-1;j++)
+            for(int k=j+1;k<nums.size();k++) {
+                int sum = nums[i] + nums[j] + nums[k];
+                if(isPrime(sum)) answer++;
+            }
     clock_t end = clock();
     cout << "Time difference = " << (double)(end - begin) << "[ms]" << endl;
 
