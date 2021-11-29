@@ -18,17 +18,6 @@
 
 using namespace std;
 
-template <typename T>
-void printvector(vector<T> arr) {
-    cout << "arr : ";
-    for (T a: arr) {
-        cout << a << " ";
-    }
-    cout << endl;
-}
-
-using namespace std;
-
 int solution(int N, vector<vector<int>> road, int K) {
     vector<pair<int,int>> adj[N+1];
     priority_queue<pair<int,int>> pq;
