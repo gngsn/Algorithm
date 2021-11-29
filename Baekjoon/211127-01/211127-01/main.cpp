@@ -8,13 +8,13 @@
 
 #include <iostream>
 #include <string>
-#include <vector>
-#include <algorithm>
-#include <cmath>
-#include <queue>
 #include <time.h>
-#define MAX_TIME 500001
-#define MAX_TOWN 51
+
+#include <queue>
+#include <vector>
+
+#define INF 2e9
+#define START 1
 
 using namespace std;
 
@@ -27,49 +27,42 @@ void printvector(vector<T> arr) {
     cout << endl;
 }
 
+using namespace std;
+
 int solution(int N, vector<vector<int>> road, int K) {
-    int answer = 1;
-    int start = 1;
-    int adj[MAX_TOWN][MAX_TOWN];
-    priority_queue<pair<int,int>> q;
-    adj[1][1] = 0;
-    for (int k = 1; k <= N; k++)
-        for (int j = 1; j <= N; j++)
-            adj[k][j] = MAX_TIME;
+    vector<pair<int,int>> adj[N+1];
+    priority_queue<pair<int,int>> pq;
+    vector<int> dij;
+    int answer = 0;
+    
+    dij.resize(N + 1, INF);
+    dij[START] = 0;
     
     for(vector<int> ro : road) {
-        if (adj[ro[0]][ro[1]] < ro[2])
-            continue;
-        adj[ro[0]][ro[1]] = ro[2];
-        adj[ro[1]][ro[0]] = ro[2];
+        adj[ro[0]].push_back({ro[1], ro[2]});
+        adj[ro[1]].push_back({ro[0], ro[2]});
     }
     
-    q.push({1, 1});
-    while(!q.empty()) {
-        int dist = -q.top().first;
-        int town = q.top().second;
-        cout << "dist : " << dist << ", town : " << town << endl;
-        q.pop();
+    pq.push({0, START});
+    
+    while(!pq.empty()) {
+        int dist = -pq.top().first;
+        int town = pq.top().second;
+        pq.pop();
         
-        for(int i = start+1; i <= N; i++) {
-            if (town == i) continue;
-            if (adj[start][i] > adj[start][town] + adj[town][i]) {
-                adj[start][i] = adj[start][town] + adj[town][i];
-                adj[i][start] = adj[start][town];
-                q.push({-adj[start][i], i});
+        for(int i = 0; i < adj[town].size(); i++) {
+            int next = adj[town][i].first;
+            int cost = dist + adj[town][i].second;
+            
+            if (dij[next] > cost) {
+                dij[next] = cost;
+                pq.push({-dij[next], next});
             }
         }
     }
-    for (int k = start+1; k <= N; k++)
-        if (adj[start][k] <= k) answer++;
-
-    cout << "adj : " << endl;
-    for (int k = 1; k <= N; k++) {
-        for (int j = 1; j <= N; j++) {
-            cout << adj[k][j] << " ";
-        }
-        cout << endl;
-    }
+    
+    for (int i = 1; i <= N; i++)
+        if (dij[i] <= K) answer++;
     
     return answer;
 }
