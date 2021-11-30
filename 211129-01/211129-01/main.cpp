@@ -31,6 +31,6 @@ vector<int> solution(int n, vector<string> words) {
 
 int main(int argc, const char * argv[]) {
     vector<int> result = solution(3, {"tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"});
-    cout << "번호 : " << result[0] << ", 차례 : " << result[1] << endl;
+    cout << "번호 : " << result[0] << ", 차례 : " << result[ << endl;
     return 0;
 }
