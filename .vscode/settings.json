@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "*.ts": "typescript",
-        "vector": "cpp",
-        "iterator": "cpp"
-    }
-}
