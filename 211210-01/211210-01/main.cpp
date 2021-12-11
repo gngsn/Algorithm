@@ -23,11 +23,15 @@ int solution(int distance, vector<int> rocks, int n) {
     while (low < high) {
         int mid = (low+high) / 2;
         int remove = 0, start = 0;
-        
+        cout << endl;
+        cout << "mid : " << mid << endl;
         for (int roc: rocks) {
-            if (roc - start < mid) remove++;
-            else start = roc;
+            if (roc - start < mid) {
+                remove++;
+                cout << roc << " ";
+            } else start = roc;
         }
+        cout << endl;
         
         if (remove <= n) {
             low = mid + 1;
