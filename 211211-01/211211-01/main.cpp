@@ -26,16 +26,6 @@ int solution(vector<vector<int>> needs, int r) {
     map<int, set<int>> m;
     priority_queue<pair<int, int>> pq;
     
-    
-    do {
-        string temp = "110";
-        for (int k = 0; k < len; k++) {
-            if (v[k]) temp += s[k];
-        }
-        cout << temp << "\n";
-    } while (next_permutation(v.begin(), v.end()));
-    
-    
 //    for (int i =0; i< needs.size(); i++) {
 //        for (int j =0; j < needs[i].size(); j++) {
 //            sum[j] += needs[i][j];
